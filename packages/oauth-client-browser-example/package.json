@@ -26,8 +26,8 @@
   "devDependencies": {
     "@atproto/oauth-client": "workspace:*",
     "@atproto/oauth-client-browser": "workspace:*",
-    "@atproto/oauth-client-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'",
-    "@atproto/oauth-server-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'",
+    "@atproto/oauth-client-metadata": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server",
+    "@atproto/oauth-server-metadata": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server",
     "@babel/plugin-syntax-import-assertions": "^7.23.3",
     "@types/react": "^18.2.50",
     "@types/react-dom": "^18.2.18",

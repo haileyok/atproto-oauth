@@ -22,9 +22,9 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/caching": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
-    "@atproto/did": "workspace:*",
-    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
+    "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server",
+    "@atproto/did": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server",
+    "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
     "lru-cache": "^10.2.0",
     "zod": "^3.22.4"
   },

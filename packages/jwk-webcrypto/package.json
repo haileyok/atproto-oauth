@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@atproto/indexed-db": "workspace:*",
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
     "@atproto/jwk-jose": "workspace:*"
   },
   "devDependencies": {

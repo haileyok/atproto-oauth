@@ -22,7 +22,7 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
     "zod": "^3.22.4"
   },
   "devDependencies": {

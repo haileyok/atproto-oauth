@@ -19,7 +19,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
     "@atproto/jwk-jose": "workspace:*",
     "tslib": "^2.6.2"
   },

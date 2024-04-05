@@ -18,10 +18,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@atproto/b64": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server'",
-    "@atproto/caching": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
-    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'"
+    "@atproto/b64": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server",
+    "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
+    "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

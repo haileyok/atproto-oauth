@@ -22,19 +22,19 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/caching": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
+    "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server",
     "@atproto/did": "workspace:*",
-    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
-    "@atproto/handle-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'",
-    "@atproto/identity-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server'",
+    "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
+    "@atproto/handle-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server",
+    "@atproto/identity-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server",
     "@atproto/indexed-db": "workspace:*",
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
     "@atproto/jwk-jose": "workspace:*",
     "@atproto/jwk-webcrypto": "workspace:*",
     "@atproto/oauth-client": "workspace:*",
-    "@atproto/oauth-client-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'",
-    "@atproto/oauth-server-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'",
-    "@atproto/oauth-server-metadata-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server'"
+    "@atproto/oauth-client-metadata": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server",
+    "@atproto/oauth-server-metadata": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server",
+    "@atproto/oauth-server-metadata-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

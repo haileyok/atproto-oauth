@@ -21,10 +21,10 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
-    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
-    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
-    "@atproto/transformer": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'",
+    "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server",
+    "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
+    "@atproto/jwk": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server",
+    "@atproto/transformer": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server",
     "zod": "^3.22.4"
   }
 }
