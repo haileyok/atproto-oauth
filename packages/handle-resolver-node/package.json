@@ -22,7 +22,7 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/did": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server",,
+    "@atproto/did": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server",
     "@atproto/handle-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server",
     "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
     "@atproto/fetch-node": "workspace:*"
