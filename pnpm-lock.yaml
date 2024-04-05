@@ -827,38 +827,38 @@ importers:
   packages/oauth-client:
     dependencies:
       '@atproto/b64':
-        specifier: workspace:*
-        version: link:../b64
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server'
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/did':
-        specifier: workspace:*
-        version: link:../did
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/fetch-dpop':
-        specifier: workspace:*
-        version: link:../fetch-dpop
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch-dpop?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch-dpop?feat-oauth-server'
       '@atproto/handle-resolver':
-        specifier: workspace:*
-        version: link:../handle-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'
       '@atproto/identity-resolver':
-        specifier: workspace:*
-        version: link:../identity-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server'
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/oauth-client-metadata':
-        specifier: workspace:*
-        version: link:../oauth-client-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata-resolver':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server'
     devDependencies:
       typescript:
         specifier: ^5.3.3
@@ -926,7 +926,7 @@ importers:
         version: link:../oauth-server-metadata
       '@babel/plugin-syntax-import-assertions':
         specifier: ^7.23.3
-        version: 7.24.1(@babel/core@7.18.6)
+        version: 7.24.1(@babel/core@7.24.4)
       '@types/react':
         specifier: ^18.2.50
         version: 18.2.74
@@ -4742,6 +4742,16 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.18.6
+      '@babel/helper-plugin-utils': 7.24.0
+    dev: true
+
+  /@babel/plugin-syntax-import-assertions@7.24.1(@babel/core@7.24.4):
+    resolution: {integrity: sha512-IuwnI5XnuF189t91XbxmXeCDz3qs6iDRO7GJ++wcfgeXNs/8FmIlKcpDSXNVyuLQxlwvskmI3Ct73wUODkJBlQ==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.24.4
       '@babel/helper-plugin-utils': 7.24.0
     dev: true
 
@@ -14656,3 +14666,113 @@ packages:
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server}
+    name: '@atproto/b64'
+    version: 0.0.1
+    dependencies:
+      base64-js: 1.5.1
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server}
+    name: '@atproto/caching'
+    version: 0.0.1
+    dependencies:
+      lru-cache: 10.2.0
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server}
+    name: '@atproto/did'
+    version: 0.0.1
+    dependencies:
+      '@atproto/caching': link:packages/caching
+      '@atproto/fetch': link:packages/fetch
+      '@atproto/jwk': link:packages/jwk
+      '@atproto/transformer': link:packages/transformer
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch-dpop?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch-dpop?feat-oauth-server}
+    name: '@atproto/fetch-dpop'
+    version: 0.0.1
+    dependencies:
+      '@atproto/b64': link:packages/b64
+      '@atproto/caching': link:packages/caching
+      '@atproto/fetch': link:packages/fetch
+      '@atproto/jwk': link:packages/jwk
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server}
+    name: '@atproto/fetch'
+    version: 0.0.1
+    dependencies:
+      '@atproto/transformer': link:packages/transformer
+      tslib: 2.6.2
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server}
+    name: '@atproto/handle-resolver'
+    version: 0.0.1
+    dependencies:
+      '@atproto/caching': link:packages/caching
+      '@atproto/did': link:packages/did
+      '@atproto/fetch': link:packages/fetch
+      lru-cache: 10.2.0
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server}
+    name: '@atproto/identity-resolver'
+    version: 0.0.1
+    dependencies:
+      '@atproto/did': link:packages/did
+      '@atproto/fetch': link:packages/fetch
+      '@atproto/handle-resolver': link:packages/handle-resolver
+      '@atproto/syntax': link:packages/syntax
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server}
+    name: '@atproto/jwk'
+    version: 0.0.1
+    dependencies:
+      '@atproto/b64': link:packages/b64
+      tslib: 2.6.2
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server}
+    name: '@atproto/oauth-client-metadata'
+    version: 0.0.1
+    dependencies:
+      '@atproto/jwk': link:packages/jwk
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server}
+    name: '@atproto/oauth-server-metadata-resolver'
+    version: 0.0.1
+    dependencies:
+      '@atproto/caching': link:packages/caching
+      '@atproto/fetch': link:packages/fetch
+      '@atproto/oauth-server-metadata': link:packages/oauth-server-metadata
+      zod: 3.22.4
+    dev: false
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server}
+    name: '@atproto/oauth-server-metadata'
+    version: 0.0.1
+    dependencies:
+      zod: 3.22.4
+    dev: false
