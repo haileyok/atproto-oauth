@@ -481,17 +481,17 @@ importers:
   packages/did:
     dependencies:
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/transformer':
-        specifier: workspace:*
-        version: link:../transformer
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -518,8 +518,8 @@ importers:
   packages/fetch:
     dependencies:
       '@atproto/transformer':
-        specifier: workspace:*
-        version: link:../transformer
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -534,17 +534,17 @@ importers:
   packages/fetch-dpop:
     dependencies:
       '@atproto/b64':
-        specifier: workspace:*
-        version: link:../b64
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server'
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
     devDependencies:
       typescript:
         specifier: ^5.3.3
@@ -553,11 +553,11 @@ importers:
   packages/fetch-node:
     dependencies:
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/transformer':
-        specifier: workspace:*
-        version: link:../transformer
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'
       ipaddr.js:
         specifier: ^2.1.0
         version: 2.1.0
@@ -572,14 +572,14 @@ importers:
   packages/handle-resolver:
     dependencies:
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/did':
-        specifier: workspace:*
-        version: link:../did
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       lru-cache:
         specifier: ^10.2.0
         version: 10.2.0
@@ -597,14 +597,14 @@ importers:
         specifier: workspace:*
         version: link:../did
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/fetch-node':
         specifier: workspace:*
         version: link:../fetch-node
       '@atproto/handle-resolver':
-        specifier: workspace:*
-        version: link:../handle-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'
     devDependencies:
       typescript:
         specifier: ^5.3.3
@@ -688,11 +688,11 @@ importers:
         specifier: workspace:*
         version: link:../did
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/handle-resolver':
-        specifier: workspace:*
-        version: link:../handle-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'
       '@atproto/syntax':
         specifier: workspace:*
         version: link:../syntax
@@ -717,8 +717,8 @@ importers:
   packages/jwk:
     dependencies:
       '@atproto/b64':
-        specifier: workspace:*
-        version: link:../b64
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server'
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -733,8 +733,8 @@ importers:
   packages/jwk-jose:
     dependencies:
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       jose:
         specifier: ^5.2.0
         version: 5.2.3
@@ -749,8 +749,8 @@ importers:
   packages/jwk-node:
     dependencies:
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/jwk-jose':
         specifier: workspace:*
         version: link:../jwk-jose
@@ -768,8 +768,8 @@ importers:
         specifier: workspace:*
         version: link:../indexed-db
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/jwk-jose':
         specifier: workspace:*
         version: link:../jwk-jose
@@ -867,26 +867,26 @@ importers:
   packages/oauth-client-browser:
     dependencies:
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/did':
         specifier: workspace:*
         version: link:../did
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/handle-resolver':
-        specifier: workspace:*
-        version: link:../handle-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'
       '@atproto/identity-resolver':
-        specifier: workspace:*
-        version: link:../identity-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server'
       '@atproto/indexed-db':
         specifier: workspace:*
         version: link:../indexed-db
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/jwk-jose':
         specifier: workspace:*
         version: link:../jwk-jose
@@ -897,14 +897,14 @@ importers:
         specifier: workspace:*
         version: link:../oauth-client
       '@atproto/oauth-client-metadata':
-        specifier: workspace:*
-        version: link:../oauth-client-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata-resolver':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata-resolver
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server'
     devDependencies:
       typescript:
         specifier: ^5.3.3
@@ -919,11 +919,11 @@ importers:
         specifier: workspace:*
         version: link:../oauth-client-browser
       '@atproto/oauth-client-metadata':
-        specifier: workspace:*
-        version: link:../oauth-client-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'
       '@babel/plugin-syntax-import-assertions':
         specifier: ^7.23.3
         version: 7.24.1(@babel/core@7.24.4)
@@ -961,8 +961,8 @@ importers:
   packages/oauth-client-metadata:
     dependencies:
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -974,8 +974,8 @@ importers:
   packages/oauth-provider:
     dependencies:
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/fetch-node':
         specifier: workspace:*
         version: link:../fetch-node
@@ -986,17 +986,17 @@ importers:
         specifier: workspace:*
         version: link:../http-util
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/jwk-node':
-        specifier: workspace:*
-        version: link:../jwk-node
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk-node?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk-node?feat-oauth-server'
       '@atproto/oauth-client-metadata':
-        specifier: workspace:*
-        version: link:../oauth-client-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'
       '@atproto/oauth-server-metadata':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'
       cookie:
         specifier: ^0.6.0
         version: 0.6.0
@@ -1093,20 +1093,20 @@ importers:
   packages/oauth-provider-client-uri:
     dependencies:
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/jwk':
-        specifier: workspace:*
-        version: link:../jwk
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
       '@atproto/oauth-provider':
         specifier: workspace:*
         version: link:../oauth-provider
       '@atproto/transformer':
-        specifier: workspace:*
-        version: link:../transformer
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'
       psl:
         specifier: ^1.9.0
         version: 1.9.0
@@ -1152,14 +1152,14 @@ importers:
   packages/oauth-server-metadata-resolver:
     dependencies:
       '@atproto/caching':
-        specifier: workspace:*
-        version: link:../caching
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/oauth-server-metadata':
-        specifier: workspace:*
-        version: link:../oauth-server-metadata
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -1280,8 +1280,8 @@ importers:
         specifier: workspace:^
         version: link:../crypto
       '@atproto/fetch':
-        specifier: workspace:*
-        version: link:../fetch
+        specifier: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server
+        version: '@gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'
       '@atproto/fetch-node':
         specifier: workspace:*
         version: link:../fetch-node
@@ -14739,6 +14739,16 @@ packages:
       '@atproto/syntax': link:packages/syntax
     dev: false
 
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk-node?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk-node?feat-oauth-server}
+    name: '@atproto/jwk-node'
+    version: 0.0.1
+    dependencies:
+      '@atproto/jwk': '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'
+      '@atproto/jwk-jose': link:packages/jwk-jose
+      tslib: 2.6.2
+    dev: false
+
   '@gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server':
     resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server}
     name: '@atproto/jwk'
@@ -14756,7 +14766,6 @@ packages:
     dependencies:
       '@atproto/jwk': link:packages/jwk
       zod: 3.22.4
-    dev: false
 
   '@gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server':
     resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server}
@@ -14775,4 +14784,11 @@ packages:
     version: 0.0.1
     dependencies:
       zod: 3.22.4
+
+  '@gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server':
+    resolution: {tarball: https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server}
+    name: '@atproto/transformer'
+    version: 0.0.1
+    dependencies:
+      tslib: 2.6.2
     dev: false

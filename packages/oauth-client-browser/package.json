@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@atproto/caching": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server",
-    "@atproto/did": "workspace:*",
+    "@atproto/did": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server",,
     "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
     "@atproto/handle-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server",
     "@atproto/identity-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server",

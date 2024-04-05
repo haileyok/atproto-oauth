@@ -18,7 +18,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@atproto/did": "workspace:*",
+    "@atproto/did": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/did?feat-oauth-server",,
     "@atproto/fetch": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server",
     "@atproto/handle-resolver": "https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server",
     "@atproto/syntax": "workspace:*"
