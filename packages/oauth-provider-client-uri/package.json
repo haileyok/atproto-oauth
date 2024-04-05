@@ -28,7 +28,7 @@
     }
   },
   "dependencies": {
-    "@atproto/caching": "workspace:*",
+    "@atproto/caching": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
     "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
     "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
     "@atproto/oauth-provider": "workspace:*",

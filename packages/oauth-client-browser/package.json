@@ -22,7 +22,7 @@
     "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
-    "@atproto/caching": "workspace:*",
+    "@atproto/caching": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/caching?feat-oauth-server'",
     "@atproto/did": "workspace:*",
     "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
     "@atproto/handle-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'",
