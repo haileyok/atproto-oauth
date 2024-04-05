@@ -33,7 +33,7 @@
     "@atproto/aws": "workspace:^",
     "@atproto/common": "workspace:^",
     "@atproto/crypto": "workspace:^",
-    "@atproto/fetch": "workspace:*",
+    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
     "@atproto/fetch-node": "workspace:*",
     "@atproto/identity": "workspace:^",
     "@atproto/jwk": "workspace:^",

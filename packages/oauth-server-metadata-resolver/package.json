@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@atproto/caching": "workspace:*",
-    "@atproto/fetch": "workspace:*",
-    "@atproto/oauth-server-metadata": "workspace:*",
+    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
+    "@atproto/oauth-server-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'",
     "zod": "^3.22.4"
   },
   "devDependencies": {

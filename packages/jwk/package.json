@@ -20,7 +20,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@atproto/b64": "workspace:*",
+    "@atproto/b64": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/b64?feat-oauth-server'",
     "tslib": "^2.6.2",
     "zod": "^3.22.4"
   },

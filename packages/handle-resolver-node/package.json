@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@atproto/did": "workspace:*",
-    "@atproto/handle-resolver": "workspace:*",
-    "@atproto/fetch": "workspace:*",
+    "@atproto/handle-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'",
+    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
     "@atproto/fetch-node": "workspace:*"
   },
   "devDependencies": {

@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "@atproto/transformer": "workspace:*",
+    "@atproto/transformer": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/transformer?feat-oauth-server'",
     "tslib": "^2.6.2",
     "zod": "^3.22.4"
   },

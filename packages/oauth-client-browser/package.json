@@ -24,17 +24,17 @@
   "dependencies": {
     "@atproto/caching": "workspace:*",
     "@atproto/did": "workspace:*",
-    "@atproto/fetch": "workspace:*",
-    "@atproto/handle-resolver": "workspace:*",
-    "@atproto/identity-resolver": "workspace:*",
+    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
+    "@atproto/handle-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/handle-resolver?feat-oauth-server'",
+    "@atproto/identity-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/identity-resolver?feat-oauth-server'",
     "@atproto/indexed-db": "workspace:*",
-    "@atproto/jwk": "workspace:*",
+    "@atproto/jwk": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/jwk?feat-oauth-server'",
     "@atproto/jwk-jose": "workspace:*",
     "@atproto/jwk-webcrypto": "workspace:*",
     "@atproto/oauth-client": "workspace:*",
-    "@atproto/oauth-client-metadata": "workspace:*",
-    "@atproto/oauth-server-metadata": "workspace:*",
-    "@atproto/oauth-server-metadata-resolver": "workspace:*"
+    "@atproto/oauth-client-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-client-metadata?feat-oauth-server'",
+    "@atproto/oauth-server-metadata": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata?feat-oauth-server'",
+    "@atproto/oauth-server-metadata-resolver": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/oauth-server-metadata-resolver?feat-oauth-server'"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

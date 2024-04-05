@@ -24,7 +24,7 @@
   "dependencies": {
     "@atproto/caching": "workspace:*",
     "@atproto/did": "workspace:*",
-    "@atproto/fetch": "workspace:*",
+    "@atproto/fetch": "yarn add 'https://gitpkg.now.sh/haileyok/atproto-oauth/packages/fetch?feat-oauth-server'",
     "lru-cache": "^10.2.0",
     "zod": "^3.22.4"
   },
